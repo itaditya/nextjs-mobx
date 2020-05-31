@@ -20,13 +20,12 @@ const Todos = observer(function Todos() {
         <a className="text-blue-700">Notes</a>
       </Link>
       <h2 className="text-2xl font-bold">Todos</h2>
-      <ul className="">
+      <ul className="flex flex-col space-y-2">
         {todos.map(todo => (
           <li key={todo.id} className={`flex items-center`}>
             <p className={`todo-title ${todo.completed && 'line-through'}`}>
               {todo.title}
             </p>
-            <button>Hello</button>
             <button
               className="bg-blue-600 px-2"
               onClick={() => (todo.completed = !todo.completed)}
