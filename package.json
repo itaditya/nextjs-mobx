@@ -1,0 +1,22 @@
+{
+  "name": "nextjs-mobx-context",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "mobx": "5.15.4",
+    "mobx-react-lite": "2.0.7",
+    "next": "9.4.4",
+    "react": "16.13.0",
+    "react-dom": "16.13.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.2.0"
+  },
+  "keywords": [],
+  "description": ""
+}
